@@ -22,7 +22,7 @@ Route::get('articles', 'ArticleController@index');
 //articles details
 Route::get('article/{id}', 'ArticleController@show');
 //create new article
-Route::get('article', 'ArticleController@store');
+Route::post('article', 'ArticleController@store');
 //update article
 Route::put('article', 'ArticleController@store');
 //delete article
