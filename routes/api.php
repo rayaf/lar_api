@@ -20,7 +20,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 //list of articles
 Route::get('articles', 'ArticleController@index');
 //articles details
-Route::get('articles/{id}', 'ArticleController@show');
+Route::get('article/{id}', 'ArticleController@show');
 //create new article
 Route::get('articles', 'ArticleController@store');
 //update article
