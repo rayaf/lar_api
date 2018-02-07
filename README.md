@@ -1,1 +1,1 @@
-An test api build in laravel.
+An test api build in laravel thats simulated a blog post.    
